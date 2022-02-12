@@ -1,0 +1,36 @@
+body {
+  background-color: antiquewhite;
+  color: darkslategrey;
+  position: absolute:
+  height: auto;
+}
+
+.LightOff {
+  background-color: darkslategrey;
+  color: antiquewhite;
+}
+
+button {
+  border: none;
+}
+button:hover {
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+  color: #0089ff !important;
+}
+
+aside { 
+  position: initial;
+  float:right;
+  top: 0px;
+  bottom: 0px;
+}
+
+#Lightswitch {
+width: 100px;
+height: auto;
+}
