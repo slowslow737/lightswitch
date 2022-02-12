@@ -5,9 +5,9 @@ function toggle() {
 
 function changeImg() {
   var image = document.getElementById("Lightswitch");
-  if (image.src.match("img/lightswitch-icon-on.jpg")) {
-    image.src = "img/lightswitch-icon-off.jpg";
+  if (image.src.match("lightswitch-icon-on.jpg")) {
+    image.src = "lightswitch-icon-off.jpg";
   } else {
-    image.src = "img/lightswitch-icon-on.jpg";
+    image.src = "lightswitch-icon-on.jpg";
   }
 }
